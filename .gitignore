@@ -1,0 +1,23 @@
+# Created by .ignore support plugin (hsz.mobi)
+\.idea/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+### IntelliJ IDEA ###
+rebel.xml
+.idea/
+### MAC ###
+.DS_Store
+### Other ###
+logs/
+temp/
+java-serve/target/
+train-clz-mng-spring/target/
+LOG_HOME_IS_UNDEFINED/
+gateway-test-service.iml
+gateway-test-service-common/gateway-test-service-common.iml
+gateway-test-service-spring/gateway-test-service-spring.iml

@@ -1,0 +1,47 @@
+server:
+  port: 10061
+  jetty:
+    acceptors: 2
+    selectors: 4
+spring:
+  application:
+    name: fdfs-oss-sys
+  redis:
+    port: 6380
+    host: 192.168.2.32
+    password: U2FsdGVkX19s2jHbSocQi
+    database: 13
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+    timeout: 5000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+local:
+  server:
+    port: 10070
+
+app:
+  id-key: idjekdi873kj1ad198cid28yee21jd87
+  id: guang2020lian
+  secret-key: ifjekd7309kj1ad198cid28abb21jd65
+  secret: iefa*&Y^873hfcd
+
+jwt:
+  config:
+    encrypt:
+      # JWT认证加密私钥(base64加密)
+      jwt-key: U0GULExyENhspJr34yNjQ1NA
+    verify:
+      secert: EJ&fhe*jX^jf@e
+
+fastdfs:
+  token:
+    key: U0C8LExyChispJP34yNjQAN1
+    secret: J89&*hfe&^2d
