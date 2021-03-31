@@ -26,7 +26,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <java.version>1.8</java.version>
         <jackson-databind.verison>2.9.9</jackson-databind.verison>
-        <guava.version>27.1-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <jwt.version>3.8.0</jwt.version>
         <apache-pool2.version>2.6.2</apache-pool2.version>
         <logback-core.version>1.2.3</logback-core.version>
